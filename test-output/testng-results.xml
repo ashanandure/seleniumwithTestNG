@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-28T17:03:49 IST" name="Suite" finished-at="2022-04-28T17:03:49 IST" duration-ms="55">
+    <groups>
+      <group name="system ">
+        <method signature="Demo1.searchPage()[pri:0, instance:Tutorial2.Demo1@6babf3bf]" name="searchPage" class="Tutorial2.Demo1"/>
+      </group> <!-- system  -->
+      <group name="Sanity testing">
+        <method signature="Demo.homePage()[pri:0, instance:Tutorial2.Demo@101952da]" name="homePage" class="Tutorial2.Demo"/>
+      </group> <!-- Sanity testing -->
+      <group name="system testing">
+        <method signature="Demo.searchPage()[pri:0, instance:Tutorial2.Demo@101952da]" name="searchPage" class="Tutorial2.Demo"/>
+      </group> <!-- system testing -->
+      <group name="Regression">
+        <method signature="Demo.adminPage()[pri:0, instance:Tutorial2.Demo@101952da]" name="adminPage" class="Tutorial2.Demo"/>
+        <method signature="Demo.loginPage()[pri:0, instance:Tutorial2.Demo@101952da]" name="loginPage" class="Tutorial2.Demo"/>
+        <method signature="Demo1.abc()[pri:0, instance:Tutorial2.Demo1@6babf3bf]" name="abc" class="Tutorial2.Demo1"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="Demo1.adminPage()[pri:0, instance:Tutorial2.Demo1@6babf3bf]" name="adminPage" class="Tutorial2.Demo1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-04-28T17:03:49 IST" name="Test" finished-at="2022-04-28T17:03:49 IST" duration-ms="55">
+      <class name="Tutorial2.Demo">
+        <test-method signature="adminPage()[pri:0, instance:Tutorial2.Demo@101952da]" started-at="2022-04-28T17:03:49 IST" name="adminPage" finished-at="2022-04-28T17:03:49 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminPage -->
+        <test-method signature="homePage()[pri:0, instance:Tutorial2.Demo@101952da]" started-at="2022-04-28T17:03:49 IST" name="homePage" finished-at="2022-04-28T17:03:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="loginPage()[pri:0, instance:Tutorial2.Demo@101952da]" started-at="2022-04-28T17:03:49 IST" name="loginPage" finished-at="2022-04-28T17:03:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="searchPage()[pri:0, instance:Tutorial2.Demo@101952da]" started-at="2022-04-28T17:03:49 IST" name="searchPage" finished-at="2022-04-28T17:03:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+      </class> <!-- Tutorial2.Demo -->
+      <class name="Tutorial2.Demo1">
+        <test-method signature="abc()[pri:0, instance:Tutorial2.Demo1@6babf3bf]" started-at="2022-04-28T17:03:49 IST" name="abc" finished-at="2022-04-28T17:03:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method signature="adminPage()[pri:0, instance:Tutorial2.Demo1@6babf3bf]" started-at="2022-04-28T17:03:49 IST" name="adminPage" finished-at="2022-04-28T17:03:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminPage -->
+        <test-method signature="searchPage()[pri:0, instance:Tutorial2.Demo1@6babf3bf]" started-at="2022-04-28T17:03:49 IST" name="searchPage" finished-at="2022-04-28T17:03:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+      </class> <!-- Tutorial2.Demo1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
